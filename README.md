@@ -10,24 +10,23 @@ In partnership with 10Alytics, a data-driven analytics company, this project uti
 This analysis aims to achieve the following:
 
 Customer Purchase Insights:
-
 Retrieve customer names alongside the quantity of products they purchased, including customers who haven’t made any purchases.
+
 Sales and Customer Information:
-
 Extract all sales_id, sale_date, and customer_email details, ensuring inclusion of sales records without customer information where applicable.
-Product Sales Data:
 
+Product Sales Data:
 Display all product_id values sold, accompanied by the customer’s first name.
 Retrieve all product names, casting their prices as text for consistency across price representations.
+
 Purchase Amounts:
-
 Display customer names (first and last) with the sale amount for purchased products or “No amount” if no sale exists.
-Product Stock Levels:
 
+Product Stock Levels:
 List all products and show the total quantity sold, displaying a 0 for products with no recorded sales.
 Classify products by stock levels, with labels for "Low Stock" (less than 10 units), "Medium Stock" (10-50 units), and "High Stock" (more than 50 units).
-Date-Based Sales Analysis:
 
+Date-Based Sales Analysis:
 Extract sale information, including sale_id, sale_date, and the sale year.
 Segment sales by quarter based on the sale date, labeling as “Q1” (January to March), “Q2” (April to June), “Q3” (July to September), or “Q4” (October to December).
 
@@ -35,27 +34,27 @@ Segment sales by quarter based on the sale date, labeling as “Q1” (January t
 The analysis was conducted using PostgreSQL. 10Alytics contributed high-level data expertise to design queries and organize the outputs, ensuring actionable insights for EcoFurnish.
 
 ## Key SQL Queries
+
 Customer Purchases:
-
 Retrieve all customer names and quantities purchased, with inclusion for customers with no purchases.
+
 Sales and Customer Information:
-
 Display all sales_id, sale_date, and customer_email, including sales without customer details.
-Product Sales Data:
 
+Product Sales Data:
 Extract product_id and customer first name for all sales transactions.
 Cast product prices as text in the product name query for uniformity.
+
 Purchase Amounts and Defaults:
-
 Show all customer names with the sale amount, defaulting to “No amount” or 0 if unavailable.
+
 Total Quantity Sold per Product:
-
 List products with total quantity sold, assigning a 0 where no sales data exists.
+
 Stock Level Classification:
-
 Classify products based on stock levels as "Low Stock," "Medium Stock," or "High Stock."
-Date-Based Analysis:
 
+Date-Based Analysis:
 Extract sale information with sale_id, sale_date, sale year, and assign a quarter label (Q1-Q4) based on the sale date.
 
 ## Project Structure
