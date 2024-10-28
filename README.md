@@ -1,5 +1,7 @@
 # EcoFurnish-Data-Analysis-Project-SQL
 
+![ecofriendly](https://github.com/user-attachments/assets/eb9c3ccd-a698-44d1-a3d9-e70273248132)
+
 
 ## Overview
 EcoFurnish is a leading provider of eco-friendly furniture, committed to sustainable sourcing and creating stylish, environmentally responsible pieces. Operating through both online platforms and physical stores, EcoFurnish offers a diverse range of products, from office chairs to bedroom sets.
